@@ -4,6 +4,7 @@ public class Main {
         //complete exer3();
         //complete exer4();
         //complete exer5();
+        exer6();
 
     } // end method
 
@@ -133,6 +134,17 @@ public class Main {
         System.out.println(Integer.toBinaryString(z)); //10111
 
     } //end exer5
+
+    public static void exer6() {
+        //Write a program that declares an integer variable, assigns a number, and uses a postfix increment operator
+        // to increase the value. Print the value before and after the increment operator.
+
+        int x = 124;
+        System.out.println(x);
+        x++;
+        System.out.println(x); // adds one x = 125 now
+
+    }// end exer6
 
 } // end class
 
