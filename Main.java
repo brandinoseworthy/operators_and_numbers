@@ -4,7 +4,8 @@ public class Main {
         //complete exer3();
         //complete exer4();
         //complete exer5();
-        exer6();
+        //complete exer6();
+        exer7();
 
     } // end method
 
@@ -145,6 +146,21 @@ public class Main {
         System.out.println(x); // adds one x = 125 now
 
     }// end exer6
+
+    public static void exer7(){
+       // Write a program that demonstrates at least 3 ways to increment a variable by 1 and does this multiple times.
+        // Assign a value to an integer variable, print it, increment by 1, print it again, increment by 1, and then print again.
+
+        int x = 456;
+        System.out.println(x); //456
+        x += 1;
+        System.out.println(x); //457
+        x++;
+        System.out.println(x); // 458
+        ++x;
+        System.out.println(x); //459
+
+    } //end exer7
 
 } // end class
 
