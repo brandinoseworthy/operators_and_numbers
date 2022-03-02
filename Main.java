@@ -1,23 +1,27 @@
 public class Main {
     public static void main(String[] args) {
-
+        //complete exer1();
         //complete exer3();
         //complete exer4();
         //complete exer5();
         //complete exer6();
-        exer7();
+        //complete exer7();
+        //complete exer8();
 
     } // end method
 
     public static void exer1 () {
         //Write the following integers in binary notation. Do not use any Java functions or online conversion application
         // to calculate the answer as this will hinder the learning process and your understanding of the concept. However, you may check your answers using Java methods.
-        //1
-        //8
-        //33
-        //78
-        //787
-        //33,987
+        //1             1
+        //8             1000
+        //33            100001
+        //78            1001110
+        //787           1100010011
+        //33,987        100001001100011
+
+//            int x = 33987;
+//        System.out.println(Integer.toBinaryString(x));
     }
 
     public static void exer2() {
@@ -28,6 +32,7 @@ public class Main {
 //        0111 0010
 //        0010 0001 1111
 //        0010 1100 0110 0111
+
     }
 
     public static void exer3 () {
@@ -161,6 +166,27 @@ public class Main {
         System.out.println(x); //459
 
     } //end exer7
+
+    public static void exer8(){
+//        Write a program that declares 2 integer variables, x, and y, and then assigns 5 to x and 8 to y. Create
+//        another variable sum and assign the value of ++x added to y and print the result. Notice the value of the
+//        sum (should be 14). Now change the increment operator to postfix (x++) and re-run the program. Notice what
+//        the value of sum is. The first configuration incremented x and then calculated the sum while the second
+//        configuration calculated the sum and then incremented x.
+
+        int x = 5;
+        int y = 8;
+        System.out.println(x + y); //13
+
+//        int z = ((++x) + y);
+//        System.out.println(z); //14
+
+        int z =((x++) + y);
+        System.out.println(z); // 13
+
+        System.out.println(x); // x is NOW 6
+
+    }// end exer8
 
 } // end class
 
