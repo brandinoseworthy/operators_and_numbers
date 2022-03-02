@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        exer3();
-
+       //complete exer3();
+        exer4();
 
     } // end method
 
@@ -78,11 +78,45 @@ public class Main {
 
         System.out.println(Integer.toBinaryString(c)); //10110000
 
+    } // end exer3
+
+    public static void exer4() {
+//        Write a program that declares a variable x and assigns 150 to it and prints out the binary string version of the number.
+//        Now use the right shift operator (>>) to shift by 2 and assign the result to x. Write a comment indicating what you anticipate
+//        the decimal and binary values to be. Now print the value of x and the binary string.
+//        Do the preceding exercise with the following values:
+//
+//        225
+//        1555
+//        32456
+
+        int x = 150;
+        System.out.println(Integer.toBinaryString(x)); // 10010110
+
+        x = x>> 2;
+        System.out.println(x); //37
+        System.out.println(Integer.toBinaryString(x)); //100101
+
+        int a = 255;
+        System.out.println(Integer.toBinaryString(a)); // 11111111
+
+        a = a>> 2;
+        System.out.println(a); //63
+        System.out.println(Integer.toBinaryString(a)); //111111
+
+        int b = 1555;
+        System.out.println(Integer.toBinaryString(a)); // 111111
+
+        b = b>> 2;
+        System.out.println(b); //388
+        System.out.println(Integer.toBinaryString(b)); //110000100
 
 
 
 
-    }
+    } //end exer4
+
+
 } // end class
 
 
