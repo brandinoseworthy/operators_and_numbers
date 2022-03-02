@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-       //complete exer3();
-        exer4();
+        //complete exer3();
+        //complete exer4();
+        //complete exer5();
 
     } // end method
 
@@ -112,10 +113,26 @@ public class Main {
         System.out.println(Integer.toBinaryString(b)); //110000100
 
 
-
-
     } //end exer4
 
+    public static void exer5() {
+//        Write a program that declares 3 int variables x, y, and z. Assign 7 to x and 17 to y. Write a comment that
+//        indicates what you predict will be the result of the bitwise & operation on x and y. Now use the bitwise &
+//        operator to derive the decimal and binary values and assign the result to z.
+//        Now, with the preceding values, use the bitwise | operator to calculate the “or” value between x and y. As
+//        before, write a comment that indicates what you predict the values to be before printing them out.
+
+        int x = 7;
+        int y = 17;
+        int z = (x & y); // we are going to use a dynamic value for z (x and y)
+        System.out.println(z); //1
+        System.out.println(Integer.toBinaryString(z)); //1
+
+        z = (x | y);
+        System.out.println(z); //23
+        System.out.println(Integer.toBinaryString(z)); //10111
+
+    } //end exer5
 
 } // end class
 
